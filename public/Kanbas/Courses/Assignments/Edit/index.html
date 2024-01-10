@@ -1,0 +1,93 @@
+<html>
+  <body>
+    <select name="grade-type" id="grade-type">
+      <option value="SPEEDGRADER">SpeedGrader</option>
+    </select>
+    <hr />
+    <h2>Assignment Name</h2>
+    <input type="text" name="assignment-name" id="assignment-name" placeholder="Assignment Name" />
+    <br />
+    <br />
+    <textarea cols="30" rows="2">
+      This is the assignment description
+    </textarea>
+    <br />
+    <br />
+    <p>Points</p>
+    <input type="text" placeholder="Points" value="100" />
+    <br />
+    <br />
+    Assignment Group
+    <br />
+    <select>
+      <option value="ASSIGNMENTS" selected>Assignments</option>
+    </select>
+    <br />
+    <br />
+    Display Grade As
+    <br />
+    <select>
+      <option value="PERCENTAGE" selected>Percentage</option>
+      <option value="POINTS">Points</option>
+    </select>
+    <h4>Submission Type</h4>
+    <select>
+      <option value="ONLINE" selected>Online</option>
+    </select>
+    <br />
+    <br />
+
+    <label>Online Entry Options</label>
+    <br />
+    <input type="checkbox" value="TEXTENTRY" name="check-textentry" id="chkbox-textentry" checked />
+    <label for="chkbox-text">Text Entry</label>
+    <br />
+    <input type="checkbox" value="WEBSITEURL" name="check-websiteurl" id="chkbox-websiteurl" />
+    <label for="chkbox-websiteurl">Website Url</label>
+    <br />
+    <input
+      type="checkbox"
+      value="MEDIARECORDINGS"
+      name="check-mediarecordings"
+      id="chkbox-mediarecordings"
+    />
+    <label for="chkbox-mediarecordings">Media Recordings</label>
+    <br />
+    <input
+      type="checkbox"
+      value="STUDENTANNOTATION"
+      name="check-studentannotations"
+      id="chkbox-studentannotations"
+    />
+    <label for="chkbox-studentannotations">Student Annotations</label>
+    <br />
+    <input type="checkbox" value="FILEUPLOADS" name="check-fileuploads" id="chkbox-fileuploads" />
+    <label for="chkbox-fileuploads">File Uploads</label>
+    <h4>Assign</h4>
+    <label>Assign To</label>
+    <br />
+    <input type="text" name="assign-to" id="assign-to" value="Everyone" placeholder="assign to" />
+    <br />
+    <br />
+    <label>Due</label>
+    <br />
+    <input type="date" id="text-fields-due" value="2024-01-01" />
+    <br />
+    <br />
+    <label>Available From</label>
+    <br />
+    <input type="date" id="text-fields-avail" value="2024-01-01" />
+    <br />
+    <br />
+    <label>Until</label>
+    <br />
+    <input type="date" id="text-fields-until" value="2024-01-01" />
+    <br />
+    <a href="/Kanbas/Courses/Assignments/screen.html">
+      <button>Cancel</button>
+    </a>
+    <a href="/Kanbas/Courses/Assignments/screen.html">
+      <button>Save</button>
+    </a>
+  </body>
+</html>
