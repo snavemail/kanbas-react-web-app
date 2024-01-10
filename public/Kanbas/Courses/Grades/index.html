@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Grades</title>
+  </head>
+  <body>
+    <select name="gradebook" id="gradebook">
+      <option selected value="GRADEBOOK">Gradebook</option>
+    </select>
+    <button>Import</button>
+    <select name="export" id="export">
+      <option selected value="EXPORT">Export</option>
+    </select>
+    <button>Configure</button>
+    <h2>Student Names</h2>
+    <input type="text" id="search-students" placeholder="Search Students" />
+    <h2>Assignment Names</h2>
+    <input type="text" id="search-assignments" placeholder="Search Assignments" />
+    <br />
+    <br />
+    <button>Apply Filters</button>
+    <br />
+    <br />
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>A1</th>
+          <th>A2</th>
+          <th>A3</th>
+          <th>A4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Liam Evans</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Jake Smith</td>
+          <td><input type="text" value="56" /></td>
+          <td><input type="text" value="86" /></td>
+          <td><input type="text" value="57" /></td>
+          <td><input type="text" value="96" /></td>
+        </tr>
+        <tr>
+          <td>Alice Jackson</td>
+          <td>98</td>
+          <td>100</td>
+          <td>97</td>
+          <td>96</td>
+        </tr>
+        <tr>
+          <td>Martha Stewart</td>
+          <td><input type="text" value="98" /></td>
+          <td>100</td>
+          <td><input type="text" value="97" /></td>
+          <td>96</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
