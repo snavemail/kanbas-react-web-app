@@ -1,31 +1,83 @@
 <html>
   <head>
     <title>Home Screen</title>
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/Kanbas/styles.css" />
+    <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />
   </head>
   <body>
     <table>
       <tbody>
         <tr>
           <td style="vertical-align: top">
-            <ul>
-              <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
-              <li><a href="#">Dashboard</a></li>
-              <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
-              <li><a href="#">Calendar</a></li>
-              <li><a href="#">Inbox</a></li>
-              <li><a href="#">History</a></li>
-              <li><a href="#">Studio</a></li>
-              <li><a href="#">Commons</a></li>
-              <li><a href="#">Help</a></li>
+            <ul class="wd-kanbas-navigation">
+              <li>
+                <a href="http://northeastern.edu">N</a>
+              </li>
+              <li>
+                <a href="/Kanbas/Account/Profile/screen.html">
+                  <i class="fa fa-user user" id="user"></i>
+                  Account
+                </a>
+              </li>
+              <li>
+                <a href="/Kanbas/Dashboard/screen.html">
+                  <i class="fa fa-tachometer"></i>
+                  Dashboard
+                </a>
+              </li>
+              <li class="wd-active">
+                <a href="/Kanbas/Courses/Home/screen.html">
+                  <i class="fa fa-book"></i>
+                  Courses
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-calendar"></i>
+                  Calendar
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-inbox fa-2x"></i>
+                  Inbox
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-clock-o"></i>
+                  History
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-tv"></i>
+                  Studio
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-arrow-right"></i>
+                  Commons
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-question"></i>
+                  Help
+                </a>
+              </li>
             </ul>
           </td>
           <td style="vertical-align: top">
-            <ul>
+            <ul class="wd-navigation">
               <li>
                 <a href="/Kanbas/Courses/Home/screen.html">Home</a>
               </li>
               <li>
-                <a href="#">Modules</a>
+                <a href="/Kanbas/Courses/Modules/screen.html">Modules</a>
               </li>
               <li>
                 <a href="#">Piazza</a>
@@ -33,7 +85,7 @@
               <li>
                 <a href="#">Zoom Meetings</a>
               </li>
-              <li>
+              <li class="wd-active">
                 <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
               </li>
               <li>
@@ -87,8 +139,7 @@
               type="text"
               name="assignment-name"
               id="assignment-name"
-              placeholder="Assignment Name"
-            />
+              placeholder="Assignment Name" />
             <br />
             <br />
             <textarea cols="30" rows="2">
@@ -127,40 +178,35 @@
               value="TEXTENTRY"
               name="check-textentry"
               id="chkbox-textentry"
-              checked
-            />
+              checked />
             <label for="chkbox-text">Text Entry</label>
             <br />
             <input
               type="checkbox"
               value="WEBSITEURL"
               name="check-websiteurl"
-              id="chkbox-websiteurl"
-            />
+              id="chkbox-websiteurl" />
             <label for="chkbox-websiteurl">Website Url</label>
             <br />
             <input
               type="checkbox"
               value="MEDIARECORDINGS"
               name="check-mediarecordings"
-              id="chkbox-mediarecordings"
-            />
+              id="chkbox-mediarecordings" />
             <label for="chkbox-mediarecordings">Media Recordings</label>
             <br />
             <input
               type="checkbox"
               value="STUDENTANNOTATION"
               name="check-studentannotations"
-              id="chkbox-studentannotations"
-            />
+              id="chkbox-studentannotations" />
             <label for="chkbox-studentannotations">Student Annotations</label>
             <br />
             <input
               type="checkbox"
               value="FILEUPLOADS"
               name="check-fileuploads"
-              id="chkbox-fileuploads"
-            />
+              id="chkbox-fileuploads" />
             <label for="chkbox-fileuploads">File Uploads</label>
             <h4>Assign</h4>
             <label>Assign To</label>
@@ -170,8 +216,7 @@
               name="assign-to"
               id="assign-to"
               value="Everyone"
-              placeholder="assign to"
-            />
+              placeholder="assign to" />
             <br />
             <br />
             <label>Due</label>

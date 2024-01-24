@@ -4,7 +4,20 @@
   padding: 0px;
   margin: 0px;
   width: 80px;
+  min-height: 100vh;
+  /* position: absolute; */
 }
+
+@media (max-width: 600px) {
+  .wd-kanbas-navigation {
+    display: none;
+  }
+
+  td {
+    width: 100%;
+  }
+}
+
 .wd-kanbas-navigation li {
   padding: 10px;
   margin-bottom: 10px;
@@ -26,7 +39,10 @@
   font-size: 2em;
   margin-bottom: 5px;
 }
+.wd-kanbas-navigation a .user {
+  color: white;
+}
 
-.fa {
+ul > li > a > i {
   width: 100%;
 }

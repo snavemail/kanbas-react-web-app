@@ -1,0 +1,23 @@
+.card {
+  margin-top: 35px;
+}
+
+div.row > div.col {
+  width: 270px;
+}
+@media (max-width: 600px) {
+  div.row > div.col {
+    min-width: 270px;
+    width: 100%;
+  }
+}
+
+div.row > div.col > div.card > img {
+  height: 150px;
+}
+
+div.row > div.col > div.card > div.card-body > a {
+  text-decoration: none;
+  color: navy;
+  font-weight: bold;
+}

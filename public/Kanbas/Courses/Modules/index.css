@@ -1,0 +1,104 @@
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+  font-weight: bold;
+  height: auto;
+}
+
+.wd-modules > li > div {
+  padding: 10px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 10px;
+  border-top: 1px solid gray !important;
+  border-left: 4px solid green;
+  font-weight: bold;
+  color: rgb(66, 63, 63);
+}
+
+.wd-modules > li > ul > li > ul > li {
+  /* padding: 5px; */
+  color: rgb(66, 63, 63);
+  height: 24px;
+}
+
+.wd-div {
+  height: 24px;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
+
+.sub-item {
+  margin-left: 20px;
+  color: rgb(66, 63, 63);
+}
+
+.sub-item > i {
+  color: red;
+}
+
+.wd-module-link {
+  color: red;
+  text-decoration: none;
+}
+
+.wd-module-link:hover {
+  text-decoration: underline;
+}
+
+.wd-button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.wd-button {
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 2px;
+  min-height: 40px;
+  margin: 2px;
+}
+
+.wd-button-gray {
+  background-color: #f2f2f2;
+  color: #000;
+}
+
+.wd-button-red {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.wd-select-gray {
+  background-color: #f2f2f2;
+  color: #000;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 2px;
+  min-height: 40px;
+  margin: 2px;
+}
+
+.wd-button-container > button > .wd-check {
+  color: green;
+}
