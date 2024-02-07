@@ -1,16 +1,18 @@
 <html>
   <head>
     <title>Home Screen</title>
-    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.css" />
     <link rel="stylesheet" href="/Kanbas/styles.css" />
     <link rel="stylesheet" href="/Kanbas/Navigation/index.css" />
     <link rel="stylesheet" href="/Kanbas/Courses/Navigation/index.css" />
+    <link rel="stylesheet" href="/Kanbas/Navigation/Dashboard/index.css" />
   </head>
   <body>
     <table>
       <tbody>
         <tr>
-          <td style="vertical-align: top">
+          <td style="vertical-align: top; width: 80px">
             <ul class="wd-kanbas-navigation">
               <li>
                 <a href="http://northeastern.edu">N</a>
@@ -86,7 +88,9 @@
                 <a href="#">Zoom Meetings</a>
               </li>
               <li>
-                <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+                <a href="/Kanbas/Courses/Assignments/screen.html"
+                  >Assignments</a
+                >
               </li>
               <li>
                 <a href="#">Quizzes</a>
@@ -139,9 +143,17 @@
             </select>
             <button>Configure</button>
             <h2>Student Names</h2>
-            <input type="text" id="search-students" placeholder="Search Students" />
+            <input
+              type="text"
+              id="search-students"
+              placeholder="Search Students"
+            />
             <h2>Assignment Names</h2>
-            <input type="text" id="search-assignments" placeholder="Search Assignments" />
+            <input
+              type="text"
+              id="search-assignments"
+              placeholder="Search Assignments"
+            />
             <br />
             <br />
             <button>Apply Filters</button>

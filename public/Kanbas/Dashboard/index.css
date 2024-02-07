@@ -2,7 +2,7 @@
   margin-top: 35px;
 }
 
-div.row > div.col {
+.kb-width-270 {
   width: 270px;
 }
 @media (max-width: 600px) {

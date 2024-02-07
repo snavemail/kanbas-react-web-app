@@ -5,17 +5,7 @@
   margin: 0px;
   width: 80px;
   min-height: 100vh;
-  /* position: absolute; */
-}
-
-@media (max-width: 600px) {
-  .wd-kanbas-navigation {
-    display: none;
-  }
-
-  td {
-    width: 100%;
-  }
+  position: fixed;
 }
 
 .wd-kanbas-navigation li {
@@ -30,6 +20,17 @@
 .wd-kanbas-navigation li.wd-active a {
   color: red;
 }
+
+.wd-kanbas-navigation li.wd-active-account {
+  background-color: white;
+}
+.wd-kanbas-navigation li.wd-active-account a {
+  color: red;
+}
+.wd-kanbas-navigation li.wd-active-account i {
+  color: red;
+}
+
 .wd-kanbas-navigation a {
   color: white;
   text-decoration: none;
@@ -45,4 +46,66 @@
 
 ul > li > a > i {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .wd-kanbas-navigation {
+    display: none;
+  }
+}
+
+.wd-kanbas-navigation-page {
+  background-color: black;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 80px;
+  min-height: 100vh;
+  position: fixed;
+}
+
+.wd-kanbas-navigation-page li {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+.wd-kanbas-navigation-page li.wd-active {
+  background-color: white;
+}
+.wd-kanbas-navigation-page li.wd-active a {
+  color: red;
+}
+
+.wd-kanbas-navigation-page li.wd-active-account {
+  background-color: white;
+}
+.wd-kanbas-navigation-page li.wd-active-account a {
+  color: red;
+}
+.wd-kanbas-navigation-page li.wd-active-account i {
+  color: red;
+}
+
+.wd-kanbas-navigation-page a {
+  color: white;
+  text-decoration: none;
+}
+.wd-kanbas-navigation-page a i {
+  color: red;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+.wd-kanbas-navigation-page a .user {
+  color: white;
+}
+
+ul > li > a > i {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .wd-kanbas-navigation {
+    display: none;
+  }
 }
