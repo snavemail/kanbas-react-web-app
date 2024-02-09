@@ -1,9 +1,10 @@
 import React from "react";
 import WorkingWithVariables from "./variables/WorkingWithVariables";
 import WorkingWithConditionals from "./conditionals/WorkingWithConditionals";
-import WorkingWithFunctions from "./functions/ES5Functions";
+import WorkingWithFunctions from "./functions/WorkingWithFunctions";
 import WorkingWithArrays from "./arrays/WorkingWithArrays";
 import WorkingWithJson from "./json/WorkingWithJson";
+import WorkingWithStrings from "./string/WorkingWithStrings";
 
 function JavaScript() {
   console.log("JavaScript");
@@ -15,6 +16,7 @@ function JavaScript() {
       <WorkingWithFunctions />
       <WorkingWithArrays />
       <WorkingWithJson />
+      <WorkingWithStrings />
     </div>
   );
 }

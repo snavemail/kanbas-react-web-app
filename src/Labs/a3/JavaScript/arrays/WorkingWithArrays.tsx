@@ -5,6 +5,7 @@ import ForLoops from "./ForLoops";
 import MapFunction from "./MapFunction";
 import FindFunction from "./FindFunction";
 import FindIndex from "./FindIndex";
+import FilterFunction from "./FilterFunction";
 
 function WorkingWithArrays() {
   var functionScoped = 2;
@@ -35,6 +36,7 @@ function WorkingWithArrays() {
       <MapFunction />
       <FindFunction />
       <FindIndex />
+      <FilterFunction />
     </div>
   );
 }
