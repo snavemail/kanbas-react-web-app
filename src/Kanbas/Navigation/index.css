@@ -1,0 +1,77 @@
+.wd-kanbas-navigation {
+  background-color: black;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 80px;
+  min-height: 100vh;
+  position: fixed;
+}
+
+.wd-kanbas-navigation li {
+  padding: 0px;
+  margin: 0px;
+  font-size: 0.8em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.wd-kanbas-navigation li a {
+  padding: 10px;
+  margin: 0;
+  display: block;
+  height: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.wd-kanbas-navigation li.wd-inactive a:hover {
+  background-color: #222222;
+}
+
+.wd-kanbas-navigation li.wd-active a:hover {
+  background-color: #dddddd;
+}
+
+.wd-kanbas-navigation > li > a > svg.fs-2 {
+  color: red;
+}
+
+.wd-kanbas-navigation > li > a > svg.account {
+  color: white;
+}
+
+.wd-kanbas-navigation > li.wd-active > a > svg.account {
+  color: red;
+}
+
+.wd-kanbas-navigation li.wd-active {
+  background-color: white;
+}
+
+.wd-kanbas-navigation li.wd-active a {
+  color: red;
+}
+
+.wd-kanbas-navigation li.wd-active {
+  background-color: white;
+}
+
+.wd-kanbas-navigation a {
+  color: white;
+  text-decoration: none;
+}
+.wd-kanbas-navigation a svg {
+  color: red;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+ul > li > a > svg {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .wd-kanbas-navigation {
+    display: none;
+  }
+}

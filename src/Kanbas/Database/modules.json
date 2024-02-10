@@ -1,0 +1,210 @@
+[
+  {
+    "_id": "1",
+    "name": "Introduction to Photography",
+    "description": "Basic principles of photography.",
+    "course": "PH1101",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "History of Photography",
+        "description": "A brief history of photography and how it has shaped US History.",
+        "module": "M101"
+      },
+      {
+        "_id": "L102",
+        "name": "Taking a bad photo",
+        "description": "Basic principles of taking bad photos that skew people's image.",
+        "module": "M101"
+      },
+      {
+        "_id": "L103",
+        "name": "Camera Types",
+        "description": "Overview of different types of cameras and lenses.",
+        "module": "M102"
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "name": "Introduction to ReactJS",
+    "description": "Learn the fundamentals of ReactJS.",
+    "course": "CS4550",
+    "lessons": [
+      {
+        "_id": "L201",
+        "name": "React Components",
+        "description": "Understanding React Components and their lifecycle.",
+        "module": "M201"
+      },
+      {
+        "_id": "L202",
+        "name": "State and Props",
+        "description": "Managing state and props in React applications.",
+        "module": "M201"
+      },
+      {
+        "_id": "L203",
+        "name": "React Hooks",
+        "description": "Using hooks to add state and other React features to functional components.",
+        "module": "M202"
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "name": "Introduction to Boat Building",
+    "description": "Learn the basics of boat building.",
+    "course": "BT8888",
+    "lessons": [
+      {
+        "_id": "L301",
+        "name": "Types of Boats",
+        "description": "An overview of the different types of boats and their uses.",
+        "module": "M301"
+      },
+      {
+        "_id": "L302",
+        "name": "Materials",
+        "description": "Understanding the materials used in boat building.",
+        "module": "M301"
+      },
+      {
+        "_id": "L303",
+        "name": "Construction Techniques",
+        "description": "Learn various techniques used in boat construction.",
+        "module": "M302"
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "name": "Introduction to Swimming",
+    "description": "Basic techniques and skills for swimming.",
+    "course": "SW2313",
+    "lessons": [
+      {
+        "_id": "L401",
+        "name": "Breathing Techniques",
+        "description": "Learn proper breathing techniques for swimming.",
+        "module": "M401"
+      },
+      {
+        "_id": "L402",
+        "name": "Stroke Techniques",
+        "description": "Master the different swimming strokes.",
+        "module": "M401"
+      },
+      {
+        "_id": "L403",
+        "name": "Water Safety",
+        "description": "Understand water safety principles and practices.",
+        "module": "M402"
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "name": "Introduction to Rock Climbing",
+    "description": "Learn the basics of rock climbing.",
+    "course": "RC1717",
+    "lessons": [
+      {
+        "_id": "L501",
+        "name": "Equipment",
+        "description": "Introduction to climbing equipment and its use.",
+        "module": "M501"
+      },
+      {
+        "_id": "L502",
+        "name": "Basic Techniques",
+        "description": "Learn basic climbing techniques and movement.",
+        "module": "M501"
+      },
+      {
+        "_id": "L503",
+        "name": "Safety",
+        "description": "Understand safety protocols and procedures for rock climbing.",
+        "module": "M502"
+      }
+    ]
+  },
+  {
+    "_id": "6",
+    "name": "Introduction to Guitar",
+    "description": "Learn the basics of playing guitar.",
+    "course": "GT1331",
+    "lessons": [
+      {
+        "_id": "L601",
+        "name": "Basic Chords",
+        "description": "Learn some basic guitar chords.",
+        "module": "M601"
+      },
+      {
+        "_id": "L602",
+        "name": "Strumming Patterns",
+        "description": "Practice different strumming patterns.",
+        "module": "M601"
+      },
+      {
+        "_id": "L603",
+        "name": "Playing Songs",
+        "description": "Learn to play popular songs on the guitar.",
+        "module": "M602"
+      }
+    ]
+  },
+  {
+    "_id": "7",
+    "name": "Introduction to History",
+    "description": "Overview of major historical events.",
+    "course": "HS1010",
+    "lessons": [
+      {
+        "_id": "L701",
+        "name": "Ancient Civilizations",
+        "description": "Study of early civilizations around the world.",
+        "module": "M701"
+      },
+      {
+        "_id": "L702",
+        "name": "World Wars",
+        "description": "Detailed examination of World War I and World War II.",
+        "module": "M701"
+      },
+      {
+        "_id": "L703",
+        "name": "Modern History",
+        "description": "Overview of major events in modern history.",
+        "module": "M702"
+      }
+    ]
+  },
+  {
+    "_id": "8",
+    "name": "Introduction to Mathematics",
+    "description": "Basic concepts in mathematics.",
+    "course": "MA7070",
+    "lessons": [
+      {
+        "_id": "L801",
+        "name": "Arithmetic",
+        "description": "Introduction to basic arithmetic operations.",
+        "module": "M801"
+      },
+      {
+        "_id": "L802",
+        "name": "Algebra",
+        "description": "Introduction to algebraic concepts and operations.",
+        "module": "M801"
+      },
+      {
+        "_id": "L803",
+        "name": "Geometry",
+        "description": "Introduction to geometric shapes and principles.",
+        "module": "M802"
+      }
+    ]
+  }
+]

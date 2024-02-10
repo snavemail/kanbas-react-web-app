@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "1",
+    "name": "Photography",
+    "number": "PH1101",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "image": "/camera.png"
+  },
+  {
+    "_id": "2",
+    "name": "ReactJS",
+    "number": "CS4550",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "image": "/react.png"
+  },
+  {
+    "_id": "3",
+    "name": "Boat Building",
+    "number": "BT8888",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "image": "/boat.webp"
+  },
+  {
+    "_id": "4",
+    "name": "Swimming",
+    "number": "SW2313",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "image": "/swim.jpg"
+  },
+  {
+    "_id": "5",
+    "name": "Rock Climbing",
+    "number": "RC1717",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "image": "/rock.webp"
+  },
+  {
+    "_id": "6",
+    "name": "Guitar",
+    "number": "GT1331",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "image": "/guitar.jpg"
+  },
+  {
+    "_id": "7",
+    "name": "History",
+    "number": "HS1010",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "image": "/history.jpg"
+  },
+  {
+    "_id": "8",
+    "name": "Mathematics",
+    "number": "MA7070",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "image": "/math.jpg"
+  }
+]
