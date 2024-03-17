@@ -1,27 +1,21 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function Nav() {
   const { pathname } = useLocation();
   return (
-    <nav className="nav nav-tabs mt-2">
-      <Link
-        className={`nav-link ${pathname.includes("a3") ? `active` : ``}`}
-        to="/Labs/a3"
-      >
+    <nav className='nav nav-tabs mt-2'>
+      <Link className={`nav-link ${pathname.includes('a3') ? `active` : ``}`} to='/Labs/a3'>
         A3
       </Link>
-      <Link
-        className={`nav-link ${pathname.includes("Kanbas") ? `active` : ``}`}
-        to="/Kanbas"
-      >
+      <Link className={`nav-link ${pathname.includes('a4') ? `active` : ``}`} to='/Labs/a4'>
+        A4
+      </Link>
+      <Link className={`nav-link ${pathname.includes('Kanbas') ? `active` : ``}`} to='/Kanbas'>
         Kanbas
       </Link>
-      <Link
-        className={`nav-link ${pathname.includes("hello") ? `active` : ``}`}
-        to="/hello"
-      >
+      <Link className={`nav-link ${pathname.includes('hello') ? `active` : ``}`} to='/hello'>
         Hello
       </Link>
     </nav>
