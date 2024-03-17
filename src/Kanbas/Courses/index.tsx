@@ -1,26 +1,24 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { HiMiniBars3 } from 'react-icons/hi2';
-import { courses } from '../Database';
 import Modules from './Modules';
 import CourseNavigation from './Navigation';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from './Home';
 import Assignments from './Assignments';
+import './index.css';
 
-function Courses() {
+function Courses({ courses }: { courses: any[] }) {
   const { courseId } = useParams();
   const course = courses.find(course => course._id === courseId);
   return (
-    <div>
+    <>
       <h1 style={{ color: 'red' }}>
         <HiMiniBars3 /> Course {course?.number}
       </h1>
-      <CourseNavigation />
-      <div>
-        <div
-          className='overflow-y-scroll position-fixed bottom-0 end-0'
-          style={{ left: '320px', top: '50px' }}>
+      <div className='main'>
+        <CourseNavigation />
+        <div className='overflow-y-scroll position-fixed bottom-0 end-0 main-content'>
           <Routes>
             <Route path='/' element={<Navigate to='Home' />} />
             <Route path='Home' element={<Home />} />
@@ -32,7 +30,7 @@ function Courses() {
           </Routes>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

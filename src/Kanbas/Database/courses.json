@@ -1,6 +1,6 @@
 [
   {
-    "_id": "1",
+    "_id": "PH1101",
     "name": "Photography",
     "number": "PH1101",
     "startDate": "2023-01-10",
@@ -8,7 +8,7 @@
     "image": "/camera.png"
   },
   {
-    "_id": "2",
+    "_id": "CS4550",
     "name": "ReactJS",
     "number": "CS4550",
     "startDate": "2023-01-10",

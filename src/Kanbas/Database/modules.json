@@ -26,6 +26,32 @@
     ]
   },
   {
+    "_id": "11",
+    "name": "Introduction to Photography",
+    "description": "Basic principles of photography.",
+    "course": "PH1101",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "History of Photography",
+        "description": "A brief history of photography and how it has shaped US History.",
+        "module": "M101"
+      },
+      {
+        "_id": "L102",
+        "name": "Taking a bad photo",
+        "description": "Basic principles of taking bad photos that skew people's image.",
+        "module": "M101"
+      },
+      {
+        "_id": "L103",
+        "name": "Camera Types",
+        "description": "Overview of different types of cameras and lenses.",
+        "module": "M102"
+      }
+    ]
+  },
+  {
     "_id": "2",
     "name": "Introduction to ReactJS",
     "description": "Learn the fundamentals of ReactJS.",

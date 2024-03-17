@@ -1,0 +1,13 @@
+.card-button-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card-button-container .btn {
+  width: calc(33% - 5px); /* 50% width with 5px gap */
+}
+
+.form-btn {
+  margin: 0 5px;
+}

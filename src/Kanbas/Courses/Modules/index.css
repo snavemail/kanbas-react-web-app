@@ -102,3 +102,12 @@
 .wd-button-container > button > .wd-check {
   color: green;
 }
+
+.module-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  background: none;
+  padding: 5px;
+}
