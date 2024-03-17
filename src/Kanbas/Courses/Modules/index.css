@@ -103,11 +103,38 @@
   color: green;
 }
 
-.module-form {
+li.module-form {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 10px;
-  background: none;
+  background-color: transparent;
   padding: 5px;
+}
+
+li.module-form > input,
+li.module-form > textarea {
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 3px;
+}
+
+li.module-form > button {
+  border-radius: 5px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-container > button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: calc(50% - 5px);
 }
