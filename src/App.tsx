@@ -9,14 +9,12 @@ import './App.css';
 function App() {
   return (
     <HashRouter>
-      <div>
-        <Routes>
-          <Route path='/' element={<Navigate to='/Labs' />} />
-          <Route path='/Labs/*' element={<Labs />} />
-          <Route path='/Kanbas/*' element={<Kanbas />} />
-          <Route path='/hello' element={<HelloWord />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path='/' element={<Navigate to='/Labs' />} />
+        <Route path='/Labs/*' element={<Labs />} />
+        <Route path='/Kanbas/*' element={<Kanbas />} />
+        <Route path='/hello' element={<HelloWord />} />
+      </Routes>
     </HashRouter>
   );
 }

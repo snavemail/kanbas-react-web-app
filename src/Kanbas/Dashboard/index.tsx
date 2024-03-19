@@ -18,7 +18,7 @@ function Dashboard({
   updateCourse: () => void;
 }) {
   return (
-    <div className='p-4'>
+    <div className='p-4 dashboard-wrapper'>
       <h1>Dashboard</h1>
       <h5>Course</h5>
       <input
