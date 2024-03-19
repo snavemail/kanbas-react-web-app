@@ -4,6 +4,7 @@ import HelloWord from './Labs/a3/HelloWord';
 import Kanbas from './Kanbas';
 import { HashRouter } from 'react-router-dom';
 import { Routes, Route, Navigate } from 'react-router';
+import './App.css';
 
 function App() {
   return (

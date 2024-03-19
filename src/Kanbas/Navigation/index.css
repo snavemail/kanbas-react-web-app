@@ -1,3 +1,7 @@
+.wd-navigation-wrapper {
+  min-width: 80px;
+}
+
 .wd-kanbas-navigation {
   background-color: black;
   list-style: none;
@@ -71,7 +75,7 @@ ul > li > a > svg {
 }
 
 @media (max-width: 768px) {
-  .wd-kanbas-navigation {
+  .wd-navigation-wrapper {
     display: none;
   }
 }

@@ -23,7 +23,7 @@ function KanbasNavigation() {
   ];
   const { pathname } = useLocation();
   return (
-    <div style={{ minWidth: '80px', width: '80px' }}>
+    <div className='wd-navigation-wrapper'>
       <ul className='wd-kanbas-navigation'>
         {links.map((link, index) => (
           <li key={index} className={pathname.includes(link.label) ? 'wd-active' : 'wd-inactive'}>

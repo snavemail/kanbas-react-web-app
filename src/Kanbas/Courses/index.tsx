@@ -18,7 +18,7 @@ function Courses({ courses }: { courses: any[] }) {
       </h1>
       <div className='main'>
         <CourseNavigation />
-        <div className='overflow-y-scroll position-fixed bottom-0 end-0 main-content'>
+        <div className='main-content'>
           <Routes>
             <Route path='/' element={<Navigate to='Home' />} />
             <Route path='Home' element={<Home />} />
